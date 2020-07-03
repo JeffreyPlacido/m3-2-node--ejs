@@ -28,13 +28,13 @@ const q3 = (req, res) => {
     imageUrl:
       'https://vignette.wikia.nocookie.net/simpsons/images/0/02/Homer_Simpson_2006.png',
     name: 'Homer Jay Simpson',
-    dob: 'May 12, 1956',
+    job: 'May 12, 1956',
     profession: 'Low-level Safety Inspector',
     favoriteFood: 'Donuts',
     favoriteBeverage: 'Duff Beer',
   };
 
-  res.render('pages/question3');
+  res.render('pages/question3', {homer});
 };
 
 // -----------------------------------------------
